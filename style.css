@@ -219,11 +219,34 @@ button:focus {
 /* HEADER */
 /*--------------------*/
 
+.relative {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.absolute {
+	position: absolute;
+	bottom: 0;
+	height: 64px;
+	width: 100%;
+	text-align: center;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.my-arrow {
+	color: white !important;
+}
+
+
 #mu-hero {
 	background-image: url("assets/images/banner.png");
 	display: inline;
 	float: left;
 	width: 100%;
+	height: 100vh;
 	background-position: center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
@@ -235,6 +258,7 @@ button:focus {
 	float: left;
 	opacity: 0.94;
 	width: 100%;
+	height: 100%;
 }
 
 .mu-logo-area {

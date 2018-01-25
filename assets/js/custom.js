@@ -57,6 +57,14 @@
 
 	 //MENU SCROLLING WITH ACTIVE ITEM SELECTED
 
+	$(".absolute").on('click', 'a[href^="#"]', function (event) {
+		event.preventDefault();
+
+		$('html, body').animate({
+				scrollTop: $($.attr(this, 'href')).offset().top
+		}, 1500);
+	});
+
 	// Cache selectors
 	var lastId,
 	topMenu = $(".mu-menu"),
