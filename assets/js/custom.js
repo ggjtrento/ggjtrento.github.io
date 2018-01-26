@@ -42,7 +42,7 @@
 	/*  2. EVENT TIME COUNTER
 	/* ----------------------------------------------------------- */
 	
-	$('#mu-event-counter').countdown('2018/01/26 14:00:00').on('update.countdown', function(event) {
+	$('#mu-event-counter').countdown('2018/01/26 17:00:00').on('update.countdown', function(event) {
 	  var $this = $(this).html(event.strftime(''
 	    + '<span class="mu-event-counter-block"><span>%D</span> Giorni</span> '
 	    + '<span class="mu-event-counter-block"><span>%H</span> Ore</span> '
