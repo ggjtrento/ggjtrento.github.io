@@ -349,7 +349,7 @@ button:focus {
 .mu-event-counter-area {
 	display: inline;
 	float: left;
-	margin-top: 15vh;
+	margin-top: 10vh;
 	width: 100%;
 }
 
@@ -1550,9 +1550,14 @@ button:focus {
 		line-height: 35px;
 		width: 40px;
 	}
+		
+}
 
-		
-		
+
+@media (max-height: 720px){
+	.mu-event-counter-area {
+		margin-top: 5vh;
+	}
 }
 
 
@@ -1624,10 +1629,6 @@ button:focus {
 
 	.mu-event-date-line {
 		font-size: 12px;
-	}
-
-	.mu-event-counter-area {
-		margin-top: 15vh;
 	}
 	
 	.mu-event-counter-block span {
